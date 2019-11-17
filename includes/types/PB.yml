@@ -1,0 +1,31 @@
+document-format: collection
+panflute-filters-type-before: []
+panflute-filters-type-include-for-collection: [pandoc-insert-version-table.py, pandoc-insert-meta-table.py]
+panflute-filters-type-include-for-single: []
+panflute-filters-type-include-for-content: [pandoc-insert-version-table.py, pandoc-insert-meta-table.py]
+panflute-filters-type-after: []
+
+meta-mandatory-fields:
+- name: slug
+  caption: Prozessnummer
+  type: plain
+- name: verantwortlich
+  caption: Prozessverantwortlicher
+  type: plain
+
+meta-optional-fields:
+- name: vorgaenger
+  caption: Vorgänger
+  type: doc
+- name: nachfolger
+  caption: Nachfolger
+  type: doc
+- name: schnittstellen
+  caption: Schnittstellen
+  type: doc
+- name: input
+  caption: Input
+  type: plain
+- name: output
+  caption: Output
+  type: plain

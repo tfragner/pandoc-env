@@ -1,0 +1,33 @@
+document-format: single
+panflute-filters-type-before: []
+panflute-filters-type-include-for-collection: []
+panflute-filters-type-include-for-single: [pandoc-insert-version-table.py, pandoc-insert-meta-table.py]
+panflute-filters-type-include-for-content: [pandoc-insert-meta-table.py]
+panflute-filters-type-after: []
+panflute-filters-type-after-all: [pandoc-insert-pagebreak-before-first-header.py]
+latex-level: subsection
+
+meta-mandatory-fields:
+- name: slug
+  caption: Prozesschritt
+  type: plain
+- name: verantwortlich
+  caption: Prozessverantwortlicher
+  type: plain
+
+meta-optional-fields:
+- name: vorgaenger
+  caption: Vorgänger
+  type: doc
+- name: nachfolger
+  caption: Nachfolger
+  type: doc
+- name: input
+  caption: Input
+  type: plain
+- name: output
+  caption: Output
+  type: plain
+- name: weitere
+  caption: Weitere Bearbeiter
+  type: plain

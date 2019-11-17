@@ -1,0 +1,8 @@
+document-format: single
+panflute-filters-type-before: []
+panflute-filters-type-include-for-collection: []
+panflute-filters-type-include-for-single: []
+panflute-filters-type-include-for-content: []
+panflute-filters-type-after: []
+panflute-filters-type-after-all: [pandoc-insert-landscape.py,pandoc-insert-pagebreak-before-first-header.py]
+panflute-filters-format-after: [pandoc-insert-first-level-header.py, pandoc-fix-subsection.py]

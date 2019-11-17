@@ -1,0 +1,6 @@
+panflute-filters-format-before: []
+panflute-filters-format-after: [pandoc-replace-doc-identifier.py]
+titlepage: true
+toc: true
+toc-own-page: true
+colorlinks: true

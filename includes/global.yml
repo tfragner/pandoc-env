@@ -1,0 +1,7 @@
+panflute-filters-global-before: [pandoc-insert-slug.py]
+panflute-filters-global-after:
+- pandoc-alert-boxes.py
+- pandoc-fix-image-path.py
+logo: ./.pandoc/includes/images/logo-bitter-solo.jpg
+caption-justification: centering
+lang: de

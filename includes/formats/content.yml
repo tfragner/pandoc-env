@@ -1,0 +1,2 @@
+panflute-filters-format-before: []
+panflute-filters-format-after: [pandoc-insert-first-level-header.py, pandoc-fix-subsection.py]
